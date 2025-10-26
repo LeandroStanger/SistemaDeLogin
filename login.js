@@ -14,7 +14,7 @@ function login() {
 
     if (emailInput.value === storedEmail && senhaInput.value === storedSenha) {
         alert(`Bem-vindo, ${nomeUsuario}! Você tem ${idadeUsuario} anos.`);
-        window.location.href = "index.html";
+        window.location.href = "home.html";
     } else {
         alert("Credenciais inválidas!");
     }
