@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="content">
+    <center>
+        <h1>Leandro Stanger</h1>
+        <h2>Login</h1>
+    </center>
+    <form id="login">
+        <ul>
+            <li>
+               <label for="loginEmail">E-Mail: </label>
+               <input type="email" id="loginEmail" name="email" required
+               pattern="^[a-zA-Z0-9._%+-]+@[a= zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+               placeholder="exemplo@dominio.com">
+            </li>
+            <li>
+                <label for="loginSenha">Senha: </label>
+                <input type="password" id="loginSenha" name="senha" required>
+            </li>
+            <li>
+                <button type="button" class="btnSimples" onclick="login()">Entrar</button>
+            </li>
+        </ul>
+    </form>
+    <br>
+    <hr>
+    <br>
