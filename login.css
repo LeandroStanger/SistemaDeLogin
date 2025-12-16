@@ -21,6 +21,11 @@ html, body {
 }
 h1 {
     margin: 25px;
+    text-align: center;
+    color: blue;
+}
+h2{
+    text-align: center;
 }
 p {
     margin: 25px;
@@ -34,7 +39,7 @@ ul {
 li {
     margin-bottom: 15px;
 }
-laber {
+label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
@@ -51,9 +56,6 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-}
-h1 {
-    color: blue;
 }
 .content {
     flex: 1;
